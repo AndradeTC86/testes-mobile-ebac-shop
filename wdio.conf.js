@@ -15,7 +15,7 @@ exports.config = {
     "deviceName": "ebac-qe",
     "automationName": "UiAutomator2",
     "app": join(process.cwd(), './app/android/loja-ebac.apk'),
-    "appWaitActivity": 'com.woocommerce.android/.ui.login.LoginActivity'
+    "appWaitActivity": 'com.woocommerce.android.ui.login.LoginActivity'
    }]
 
 }
