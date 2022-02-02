@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@wdio/appium-service": "^7.16.13",
+    "@wdio/appium-service": "^7.16.14",
     "@wdio/cli": "^7.16.13",
     "@wdio/local-runner": "^7.16.13",
     "@wdio/mocha-framework": "^7.16.13",
