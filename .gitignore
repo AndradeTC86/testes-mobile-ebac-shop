@@ -106,3 +106,4 @@ dist
 # Reports
 allure-results/
 _results_/
+allure-report/
