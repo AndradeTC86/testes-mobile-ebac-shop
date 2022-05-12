@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx wdio run ./wdio.conf.js",
+    "test:ios": "npx wdio run ./wdio.ios.conf.js --suite products",
     "wdio": "wdio run wdio.conf.js"
   },
   "author": "",
