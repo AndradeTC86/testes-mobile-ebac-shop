@@ -21,7 +21,7 @@ exports.config = {
         {
             "platformName": "iOS",
             "deviceName": "iPhone 12 Pro",
-            "platformVersion": "14.4",
+            "platformVersion": "15.0",
             "orientation": "PORTRAIT",
             "automationName": "XCUITest",
             "app": join(process.cwd(), './app/ios/loja-ebac.app'),
