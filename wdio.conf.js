@@ -12,7 +12,7 @@ exports.config = {
     services: ['appium'],
     specs: ["./test/specs/**/*.js"],    
     suites:{
-        android: [
+        android: [           
             './test/specs/login.spec.js',
             './test/specs/product.spec.js'
         ]
@@ -26,13 +26,16 @@ exports.config = {
             automationName: "UiAutomator2",
             app: join(process.cwd(), "./app/android/loja-ebac.apk"),
             appWaitActivity: "com.woocommerce.android.ui.login.LoginActivity",
+            newCommandTimeout: 240
+        },
+        // {
             // 'app' : 'bs://9e015d87e13194d2eebf4899959cffa14c5fa030',
             // 'device' : 'Motorola Moto G9 Play',
             // 'os_version' : '10.0',  
             // 'project' : 'Aula de Device Farm',
             // 'build' : '1.0',
             // 'name': 'test_login_loja_ebac'
-        },
+        // }
     ],
     waitForTimeout: 20000,
     mochaOpts: {
@@ -69,4 +72,16 @@ exports.config = {
     afterStep: function (test, scenario, { error, duration, passed }) {
         driver.takeScreenshot();
     },
+    beforeSuite: async function(){
+        //verificar se o app ja esta instalado e executando
+        let state = await driver.queryAppState("br.art.ebaconline")
+        if(state !== 4){
+            await driver.launchApp()
+        }
+    },
+    afterSuite: async function(){
+        //fechar o app
+        await driver.closeApp()
+    },
+    maxInstances: 1
 };

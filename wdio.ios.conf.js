@@ -13,7 +13,8 @@ exports.config = {
     specs: ["./test/specs/**/*.js"],
     suites:{
         ios: [
-            './test/specs/productView.spec.js'
+            './test/specs/productView.spec.js',
+            './test/specs/productSearch.spec.js'
         ]
     },
     framework: "mocha",
