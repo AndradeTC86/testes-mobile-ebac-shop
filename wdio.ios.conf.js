@@ -12,7 +12,7 @@ exports.config = {
     services: ['appium'],
     specs: ["./test/specs/**/*.js"],
     suites:{
-        products: [
+        ios: [
             './test/specs/productView.spec.js'
         ]
     },

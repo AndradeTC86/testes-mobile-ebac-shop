@@ -10,7 +10,13 @@ exports.config = {
     // key: "TXoj8ynAy5Peznqfk2qW",
     // services: ['browserstack'],
     services: ['appium'],
-    specs: ["./test/specs/**/*.js"],
+    specs: ["./test/specs/**/*.js"],    
+    suites:{
+        android: [
+            './test/specs/login.spec.js',
+            './test/specs/product.spec.js'
+        ]
+    },
     framework: "mocha",
     capabilities: [
         {
