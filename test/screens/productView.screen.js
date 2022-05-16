@@ -10,7 +10,7 @@ class ProductViewScreen {
     
     async product(name){
         let selector = `-ios predicate string:name CONTAINS '${name}'`
-        await $().waiForDisplayed({timeout: 10000})
+        await $(selector).waiForDisplayed({timeout: 10000})
         return await $(selector)
     }
 }
