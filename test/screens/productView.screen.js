@@ -16,6 +16,10 @@ class ProductViewScreen {
         return $(`~Procurar`)
     }
 
+    get #productImg(){
+        return $(`-ios class chain:**/XCUIElementTypeImage`)
+    }
+
     async search(){
         await this.#searchIcon.waitForEnabled({ timeout: 10000 })
         await this.#searchIcon.click()
@@ -32,9 +36,15 @@ class ProductViewScreen {
     }
 
     async waitProduct(name){
-        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 10000 })
+        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 15000 })
     }
 
+   async productSelect(){
+        await this.#productImg.waitForEnabled({ timeout: 15000 })
+        await this.#productImg.click()
+   }
+
+   
     async product(name){
         await this.waitProduct(name)
         return await $(`-ios predicate string:name CONTAINS '${name}'`)
