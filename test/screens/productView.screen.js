@@ -9,7 +9,7 @@ class ProductViewScreen {
     }
 
     get #searchText(){
-        return $(`-ios predicate string:type == "XCUIElementTypeTextField`)
+        return $(`-ios predicate string:type == "XCUIElementTypeTextField"`)
     }
 
     get #searchBtn(){
@@ -32,7 +32,7 @@ class ProductViewScreen {
     }
 
     async waitProduct(name){
-        await $(`-ios predicate string:name CONTAINS '${name}'`).waiForDisplayed({timeout: 10000})
+        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({timeout: 10000})
     }
     
     async product(name){
