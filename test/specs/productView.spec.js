@@ -2,11 +2,11 @@ const productsViewScreen = require('../screens/productView.screen')
 
 describe('Product List', () => {
 
-    it('should list products', () => {
+    it('should list products', async () => {
         expect(await productsViewScreen.product('camisa Ciclop')).toExist()
-        expect(await productsViewScreen.productlist()).toBeElementsArrayOfSize(10)
-    });
+        expect(await productsViewScreen.productList()).toBeElementsArrayOfSize(10)
+    })
 
     
 
-});
+})

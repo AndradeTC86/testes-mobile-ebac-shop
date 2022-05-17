@@ -1,5 +1,5 @@
 class ProductViewScreen {
-    
+
     get #products(){
         return $$(`-ios predicate string: name CONTAINS 'R$'`)
     }
@@ -17,29 +17,28 @@ class ProductViewScreen {
     }
 
     async search(){
-        await this.#searchIcon.waitForEnabled({timeout: 10000})
+        await this.#searchIcon.waitForEnabled({ timeout: 10000 })
         await this.#searchIcon.click()
     }
 
     async searchBy(name){
-        await this.#searchText.waitForEnabled({timeout: 10000})
+        await this.#searchText.waitForEnabled({ timeout: 10000 })
         await this.#searchText.setValue(name)
         await this.#searchBtn.click()
     }
 
-    async productlist(){
+    async productList(){
         return await this.#products
     }
 
     async waitProduct(name){
-        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({timeout: 10000})
+        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 10000 })
     }
-    
+
     async product(name){
         await this.waitProduct(name)
         return await $(`-ios predicate string:name CONTAINS '${name}'`)
     }
-
 
 }
 
