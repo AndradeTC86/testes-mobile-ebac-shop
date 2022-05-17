@@ -9,7 +9,7 @@ exports.config = {
     // user: "thiagocesarandra_bchmnq",
     // key: "TXoj8ynAy5Peznqfk2qW",
     // services: ['browserstack'],
-    // services: ['appium'],
+    services: ['appium'],
     specs: ["./test/specs/**/*.js"],
     suites:{
         ios: [
