@@ -17,7 +17,8 @@ class ProductViewScreen {
     }
 
     get #productImg(){
-        return $(`-ios class chain:**/XCUIElementTypeImage`)
+        let selector = '[`label == "Camisa Polo R$ 0.00 "`][1]'
+        return $(`-ios class chain:**/XCUIElementTypeImage${selector}`)  
     }
 
     async search(){
@@ -40,10 +41,9 @@ class ProductViewScreen {
     }
 
    async productSelect(){
-        await this.#productImg.waitForEnabled({ timeout: 15000 })
-        await this.#productImg.click()
+        await this.#productImg.waitForEnabled({timeout: 15000})
+        await this.#productImg.click()        
    }
-
    
     async product(name){
         await this.waitProduct(name)
