@@ -9,7 +9,7 @@ exports.config = {
     // user: "thiagocesarandra_bchmnq",
     // key: "TXoj8ynAy5Peznqfk2qW",
     // services: ['browserstack'],
-    services: ['appium'],
+    // services: ['appium'],
     specs: ["./test/specs/**/*.js"],
     suites:{
         ios: [
@@ -70,6 +70,7 @@ exports.config = {
         let state = await driver.queryAppState("br.art.ebaconline")
         if(state !== 4){
             await driver.launchApp()
+            await driver.context('FLUTTER')
         }
     },
     afterSuite: async function(){

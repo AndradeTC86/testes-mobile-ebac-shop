@@ -16,9 +16,24 @@ class ProductViewScreen {
         return $(`~Procurar`)
     }
 
-    get #productImg(){
-        let selector = '[`label == "Camisa Polo R$ 0.00 "`][1]'
-        return $(`-ios class chain:**/XCUIElementTypeImage${selector}`)  
+    get #productImg(){        
+        return $(`-ios class chain:**/XCUIElementTypeImage`)  
+    }
+
+    get #productIncrease(){
+        return $(`-ios class chain:**/XCUIElementTypeButton[2]`)
+    }
+
+    get #addToCart(){
+        return $(`~Adicionar ao carrinho`)
+    }
+
+    get #goToCart(){        
+        return $(`-ios predicate string:label == "2" AND name == "2" AND type == "XCUIElementTypeButton"`)
+    }
+
+    get #totalCart(){
+        return $(`~R$ 24.00`)
     }
 
     async search(){
@@ -48,6 +63,19 @@ class ProductViewScreen {
     async product(name){
         await this.waitProduct(name)
         return await $(`-ios predicate string:name CONTAINS '${name}'`)
+    }
+
+    async productAdd(){
+        await this.#productIncrease.click()
+        await this.#addToCart.click()
+    }
+
+    async goToCArt(){
+        await this.#goToCart.click()
+    }
+
+    async waitTotal(){
+        return await this.#totalCart
     }
 
 }
