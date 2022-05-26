@@ -9,12 +9,12 @@ exports.config = {
     // user: "thiagocesarandra_bchmnq",
     // key: "TXoj8ynAy5Peznqfk2qW",
     // services: ['browserstack'],
-    // services: ['appium'],
+    services: ['appium'],
     specs: ["./test/specs/**/*.js"],
     suites:{
         ios: [
-            // './test/specs/productView.spec.js',
-            // './test/specs/productSearch.spec.js',
+            './test/specs/productView.spec.js',
+            './test/specs/productSearch.spec.js',
             './test/specs/productFlow.spec.js'
         ]
     },
