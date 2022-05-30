@@ -13,7 +13,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
     }]
 } : {
     capabilities: [{
-        app: "bs://41284836bbf6b825b3be0d98b1197fc94052ee4c",
+        app: `${process.env.IOS_APP_ID}`,
         project: "Aula de CI em Mobile",
         build: 'EBAC Test iOS',
         name: 'ebac_test',
