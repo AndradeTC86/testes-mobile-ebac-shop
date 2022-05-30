@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Acessar Admin Panel",
+    "children" : [ {
+      "name" : "Deve realizar o login com sucesso",
+      "uid" : "5b4b61767b816b94",
+      "parentUid" : "1115f4ade7668629b4ec8e76372ccaa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653953824626,
+        "stop" : 1653953863020,
+        "duration" : 38394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "motorola moto g9 play-10.0" ]
+    } ],
+    "uid" : "1115f4ade7668629b4ec8e76372ccaa6"
+  }, {
+    "name" : "Cadastrar produtos",
+    "children" : [ {
+      "name" : "Deve realizar o cadastro de produtos",
+      "uid" : "d74be6f3d378e4fb",
+      "parentUid" : "34242b0b97ac518a3db75b493b8d3bab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653953902636,
+        "stop" : 1653953969187,
+        "duration" : 66551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "motorola moto g9 play-10.0" ]
+    } ],
+    "uid" : "34242b0b97ac518a3db75b493b8d3bab"
+  } ],
+  "name" : "packages"
+}
