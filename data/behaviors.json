@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Deve realizar o login com sucesso",
-    "uid" : "5b4b61767b816b94",
+    "uid" : "1291c28c1d901eb2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1653953824626,
-      "stop" : 1653953863020,
-      "duration" : 38394
+      "start" : 1653997458376,
+      "stop" : 1653997477621,
+      "duration" : 19245
     },
     "flaky" : false,
     "newFailed" : false,
@@ -16,16 +16,16 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "motorola moto g9 play-10.0" ]
+    "parameters" : [ "10.101.64.17:16003-10" ]
   }, {
     "name" : "Deve realizar o cadastro de produtos",
-    "uid" : "d74be6f3d378e4fb",
+    "uid" : "715237706dad5de5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1653953902636,
-      "stop" : 1653953969187,
-      "duration" : 66551
+      "start" : 1653997539423,
+      "stop" : 1653997558741,
+      "duration" : 19318
     },
     "flaky" : false,
     "newFailed" : false,
@@ -33,7 +33,7 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "motorola moto g9 play-10.0" ]
+    "parameters" : [ "10.101.72.19:16023-10" ]
   } ],
   "name" : "behaviors"
 }

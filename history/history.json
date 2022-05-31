@@ -1,39 +1,41 @@
 {
-  "eb5cba92bc640d4fed80dc5328e50c61" : {
+  "90875ec8332480538ba0d4793e0dbe3c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d74be6f3d378e4fb",
-      "status" : "passed",
+      "uid" : "715237706dad5de5",
+      "status" : "broken",
+      "statusDetails" : "element (\"id:login_site_creds\") still not existing after 10000ms",
       "time" : {
-        "start" : 1653953902636,
-        "stop" : 1653953969187,
-        "duration" : 66551
+        "start" : 1653997539423,
+        "stop" : 1653997558741,
+        "duration" : 19318
       }
     } ]
   },
-  "376af5975533b1c93cf391d8f3fc0f4e" : {
+  "5e81adf301249a133a10d7a23e5a5985" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5b4b61767b816b94",
-      "status" : "passed",
+      "uid" : "1291c28c1d901eb2",
+      "status" : "broken",
+      "statusDetails" : "element (\"id:login_site_creds\") still not existing after 10000ms",
       "time" : {
-        "start" : 1653953824626,
-        "stop" : 1653953863020,
-        "duration" : 38394
+        "start" : 1653997458376,
+        "stop" : 1653997477621,
+        "duration" : 19245
       }
     } ]
   }

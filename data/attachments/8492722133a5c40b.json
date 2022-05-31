@@ -1,0 +1,4 @@
+{
+  "script": "sauce:job-name=Cadastrar produtos",
+  "args": []
+}
