@@ -4,7 +4,7 @@
   "description": "Projeto de Testes EBAC Mobile",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./config/wdio.conf.js",    
+    "test": "npx wdio run ./config/wdio.conf.js",
     "wdio": "wdio run wdio.conf.js"
   },
   "author": "",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@wdio/allure-reporter": "^7.19.7",
     "@wdio/browserstack-service": "^7.19.7",
+    "@wdio/sauce-service": "^7.19.7",
     "allure-commandline": "^2.17.2",
     "appium": "^1.22.3",
     "appium-xcuitest-driver": "^4.4.2",
