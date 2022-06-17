@@ -1,16 +1,38 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "Acessar Admin Panel",
     "children" : [ {
       "name" : "Deve realizar o login com sucesso",
-      "uid" : "1291c28c1d901eb2",
+      "uid" : "b0106fb3e7866095",
       "parentUid" : "1115f4ade7668629b4ec8e76372ccaa6",
       "status" : "broken",
       "time" : {
-        "start" : 1653997458376,
-        "stop" : 1653997477621,
-        "duration" : 19245
+        "start" : 1655473011064,
+        "stop" : 1655473031129,
+        "duration" : 20065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "10.101.64.20:16012-10" ]
+    } ],
+    "uid" : "1115f4ade7668629b4ec8e76372ccaa6"
+  }, {
+    "name" : "Cadastrar produtos",
+    "children" : [ {
+      "name" : "Deve realizar o cadastro de produtos",
+      "uid" : "a2e415c16990fd51",
+      "parentUid" : "34242b0b97ac518a3db75b493b8d3bab",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655473073440,
+        "stop" : 1655473091907,
+        "duration" : 18467
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,28 +42,6 @@
       "retriesStatusChange" : false,
       "parameters" : [ "10.101.64.17:16003-10" ]
     } ],
-    "uid" : "1115f4ade7668629b4ec8e76372ccaa6"
-  }, {
-    "name" : "Cadastrar produtos",
-    "children" : [ {
-      "name" : "Deve realizar o cadastro de produtos",
-      "uid" : "715237706dad5de5",
-      "parentUid" : "34242b0b97ac518a3db75b493b8d3bab",
-      "status" : "broken",
-      "time" : {
-        "start" : 1653997539423,
-        "stop" : 1653997558741,
-        "duration" : 19318
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "10.101.72.19:16023-10" ]
-    } ],
     "uid" : "34242b0b97ac518a3db75b493b8d3bab"
-  } ],
-  "name" : "packages"
+  } ]
 }

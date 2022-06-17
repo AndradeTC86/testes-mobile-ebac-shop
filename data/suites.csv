@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue May 31 11:44:18 UTC 2022","Tue May 31 11:44:37 UTC 2022","19245","","Acessar Admin Panel","","Acessar Admin Panel","Deve realizar o login com sucesso","Deve realizar o login com sucesso",""
-"broken","Tue May 31 11:45:39 UTC 2022","Tue May 31 11:45:58 UTC 2022","19318","","Cadastrar produtos","","Cadastrar produtos","Deve realizar o cadastro de produtos","Deve realizar o cadastro de produtos",""
+"broken","Fri Jun 17 13:36:51 UTC 2022","Fri Jun 17 13:37:11 UTC 2022","20065","","Acessar Admin Panel","","Acessar Admin Panel","Deve realizar o login com sucesso","Deve realizar o login com sucesso",""
+"broken","Fri Jun 17 13:37:53 UTC 2022","Fri Jun 17 13:38:11 UTC 2022","18467","","Cadastrar produtos","","Cadastrar produtos","Deve realizar o cadastro de produtos","Deve realizar o cadastro de produtos",""

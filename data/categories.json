@@ -1,18 +1,36 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "element (\"id:login_site_creds\") still not existing after 10000ms",
       "children" : [ {
         "name" : "Deve realizar o login com sucesso",
-        "uid" : "1291c28c1d901eb2",
+        "uid" : "b0106fb3e7866095",
         "parentUid" : "59b87e8179ff25487a6e6b1671ec2b5f",
         "status" : "broken",
         "time" : {
-          "start" : 1653997458376,
-          "stop" : 1653997477621,
-          "duration" : 19245
+          "start" : 1655473011064,
+          "stop" : 1655473031129,
+          "duration" : 20065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "10.101.64.20:16012-10" ]
+      }, {
+        "name" : "Deve realizar o cadastro de produtos",
+        "uid" : "a2e415c16990fd51",
+        "parentUid" : "59b87e8179ff25487a6e6b1671ec2b5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655473073440,
+          "stop" : 1655473091907,
+          "duration" : 18467
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,27 +39,9 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "10.101.64.17:16003-10" ]
-      }, {
-        "name" : "Deve realizar o cadastro de produtos",
-        "uid" : "715237706dad5de5",
-        "parentUid" : "59b87e8179ff25487a6e6b1671ec2b5f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1653997539423,
-          "stop" : 1653997558741,
-          "duration" : 19318
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "10.101.72.19:16023-10" ]
       } ],
       "uid" : "59b87e8179ff25487a6e6b1671ec2b5f"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }

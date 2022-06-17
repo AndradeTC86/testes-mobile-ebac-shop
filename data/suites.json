@@ -1,16 +1,38 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "Acessar Admin Panel",
     "children" : [ {
       "name" : "Deve realizar o login com sucesso",
-      "uid" : "1291c28c1d901eb2",
+      "uid" : "b0106fb3e7866095",
       "parentUid" : "9a8d120749ace3abcc061b507303aa4a",
       "status" : "broken",
       "time" : {
-        "start" : 1653997458376,
-        "stop" : 1653997477621,
-        "duration" : 19245
+        "start" : 1655473011064,
+        "stop" : 1655473031129,
+        "duration" : 20065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "10.101.64.20:16012-10" ]
+    } ],
+    "uid" : "9a8d120749ace3abcc061b507303aa4a"
+  }, {
+    "name" : "Cadastrar produtos",
+    "children" : [ {
+      "name" : "Deve realizar o cadastro de produtos",
+      "uid" : "a2e415c16990fd51",
+      "parentUid" : "4a21fc6ed2fc50ad592b3c3eeef02c95",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655473073440,
+        "stop" : 1655473091907,
+        "duration" : 18467
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,28 +42,6 @@
       "retriesStatusChange" : false,
       "parameters" : [ "10.101.64.17:16003-10" ]
     } ],
-    "uid" : "9a8d120749ace3abcc061b507303aa4a"
-  }, {
-    "name" : "Cadastrar produtos",
-    "children" : [ {
-      "name" : "Deve realizar o cadastro de produtos",
-      "uid" : "715237706dad5de5",
-      "parentUid" : "4a21fc6ed2fc50ad592b3c3eeef02c95",
-      "status" : "broken",
-      "time" : {
-        "start" : 1653997539423,
-        "stop" : 1653997558741,
-        "duration" : 19318
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "10.101.72.19:16023-10" ]
-    } ],
     "uid" : "4a21fc6ed2fc50ad592b3c3eeef02c95"
-  } ],
-  "name" : "suites"
+  } ]
 }
