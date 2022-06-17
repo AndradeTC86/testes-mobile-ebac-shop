@@ -19,7 +19,7 @@ The goal of this repository is to be easy to understand focused on developing au
 ## Project Structure
 
 ```
-|--- .gtihub
+|--- .github
 |----- workflows
 |--- app
 |----- android
