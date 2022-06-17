@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "element (\"id:login_site_creds\") still not existing after 10000ms",
       "children" : [ {
         "name" : "Deve realizar o login com sucesso",
-        "uid" : "b0106fb3e7866095",
+        "uid" : "977cf769aeca79e3",
         "parentUid" : "59b87e8179ff25487a6e6b1671ec2b5f",
         "status" : "broken",
         "time" : {
-          "start" : 1655473011064,
-          "stop" : 1655473031129,
-          "duration" : 20065
+          "start" : 1655473388317,
+          "stop" : 1655473405799,
+          "duration" : 17482
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,27 +20,32 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "10.101.64.20:16012-10" ]
-      }, {
-        "name" : "Deve realizar o cadastro de produtos",
-        "uid" : "a2e415c16990fd51",
-        "parentUid" : "59b87e8179ff25487a6e6b1671ec2b5f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655473073440,
-          "stop" : 1655473091907,
-          "duration" : 18467
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "10.101.64.17:16003-10" ]
+        "parameters" : [ "10.101.72.23:16028-10" ]
       } ],
       "uid" : "59b87e8179ff25487a6e6b1671ec2b5f"
+    }, {
+      "name" : "element (\"android.widget.EditText\") still not existing after 10000ms",
+      "children" : [ {
+        "name" : "Deve realizar o cadastro de produtos",
+        "uid" : "394b961646779136",
+        "parentUid" : "fb72c8bf97b25c71713c02e7356f50e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655473456973,
+          "stop" : 1655473469351,
+          "duration" : 12378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "10.101.72.19:16023-10" ]
+      } ],
+      "uid" : "fb72c8bf97b25c71713c02e7356f50e1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

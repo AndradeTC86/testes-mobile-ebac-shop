@@ -1,17 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "Acessar Admin Panel",
     "children" : [ {
       "name" : "Deve realizar o login com sucesso",
-      "uid" : "b0106fb3e7866095",
+      "uid" : "977cf769aeca79e3",
       "parentUid" : "1115f4ade7668629b4ec8e76372ccaa6",
       "status" : "broken",
       "time" : {
-        "start" : 1655473011064,
-        "stop" : 1655473031129,
-        "duration" : 20065
+        "start" : 1655473388317,
+        "stop" : 1655473405799,
+        "duration" : 17482
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,20 +18,20 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "10.101.64.20:16012-10" ]
+      "parameters" : [ "10.101.72.23:16028-10" ]
     } ],
     "uid" : "1115f4ade7668629b4ec8e76372ccaa6"
   }, {
     "name" : "Cadastrar produtos",
     "children" : [ {
       "name" : "Deve realizar o cadastro de produtos",
-      "uid" : "a2e415c16990fd51",
+      "uid" : "394b961646779136",
       "parentUid" : "34242b0b97ac518a3db75b493b8d3bab",
       "status" : "broken",
       "time" : {
-        "start" : 1655473073440,
-        "stop" : 1655473091907,
-        "duration" : 18467
+        "start" : 1655473456973,
+        "stop" : 1655473469351,
+        "duration" : 12378
       },
       "flaky" : false,
       "newFailed" : false,
@@ -40,8 +39,9 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "10.101.64.17:16003-10" ]
+      "parameters" : [ "10.101.72.19:16023-10" ]
     } ],
     "uid" : "34242b0b97ac518a3db75b493b8d3bab"
-  } ]
+  } ],
+  "name" : "packages"
 }

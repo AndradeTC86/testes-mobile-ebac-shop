@@ -1,20 +1,20 @@
 [ {
-  "uid" : "a2e415c16990fd51",
+  "uid" : "394b961646779136",
   "name" : "Deve realizar o cadastro de produtos",
   "time" : {
-    "start" : 1655473073440,
-    "stop" : 1655473091907,
-    "duration" : 18467
+    "start" : 1655473456973,
+    "stop" : 1655473469351,
+    "duration" : 12378
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "b0106fb3e7866095",
+  "uid" : "977cf769aeca79e3",
   "name" : "Deve realizar o login com sucesso",
   "time" : {
-    "start" : 1655473011064,
-    "stop" : 1655473031129,
-    "duration" : 20065
+    "start" : 1655473388317,
+    "stop" : 1655473405799,
+    "duration" : 17482
   },
   "status" : "broken",
   "severity" : "normal"

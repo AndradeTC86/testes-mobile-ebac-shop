@@ -1,5 +1,5 @@
 {
-  "a46571959e921892c311fa98e3b47aef" : {
+  "f02dfc1d081d1cf71a334c4936ca89f8" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -9,17 +9,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b0106fb3e7866095",
+      "uid" : "977cf769aeca79e3",
       "status" : "broken",
       "statusDetails" : "element (\"id:login_site_creds\") still not existing after 10000ms",
       "time" : {
-        "start" : 1655473011064,
-        "stop" : 1655473031129,
-        "duration" : 20065
+        "start" : 1655473388317,
+        "stop" : 1655473405799,
+        "duration" : 17482
       }
     } ]
   },
-  "24ea49eee23a04b8c7960cb4688e62c2" : {
+  "90875ec8332480538ba0d4793e0dbe3c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2e415c16990fd51",
+      "uid" : "394b961646779136",
       "status" : "broken",
-      "statusDetails" : "element (\"id:login_site_creds\") still not existing after 10000ms",
+      "statusDetails" : "element (\"android.widget.EditText\") still not existing after 10000ms",
       "time" : {
-        "start" : 1655473073440,
-        "stop" : 1655473091907,
-        "duration" : 18467
+        "start" : 1655473456973,
+        "stop" : 1655473469351,
+        "duration" : 12378
       }
     } ]
   }
